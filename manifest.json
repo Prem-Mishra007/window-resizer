@@ -1,0 +1,22 @@
+{
+    "name": "Window Resizer",
+    "description": "Resize the window according to the width and height provided",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons" : {
+      "192" : "img/icon192.png",
+      "32" : "img/icon32.png",
+      "16" : "img/icon16.png"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action" : {
+      "default_icon" : "img/icon16.png",
+      "default_popup" : "pop.html"
+  }
+  }

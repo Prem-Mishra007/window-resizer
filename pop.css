@@ -1,0 +1,22 @@
+body {
+    font-family: system-ui;
+    background: #f06d06;
+    color: white;
+    text-align: center;
+  }
+  p{
+    line-height:250%;
+    font-size:18px;
+  }
+  button{
+    border-radius:2px;
+    padding:3px 50px;
+    color:red;
+    border:none;
+    width:400px;
+  }
+  input{
+    border-radius:2px;
+    border:none;
+  }
+  
